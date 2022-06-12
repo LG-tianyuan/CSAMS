@@ -1,0 +1,80 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :p:26:p, par t {seq {comp college:::p::p, space :::p, comp teacher:::p::p, space :::p, comp apply:::p::p, space :p:30:p, comp create:::p::p, space ::44:x, comp loginout:::p::p}, seq {par t {seq l {comp titile1:::p::p, space :p:137:p, comp title3:::p::p}, seq l {space :p:29:p, par l {seq {comp ClubList:::p:393:p, space u:::p, par l {comp personalclub::l:p::p, comp personalapply::l:p::p, comp personalinfo::l:p::p}}, comp title2:::p::p}}}, space :0:0:x}}, space :p:23:p}}"
+			"$verticalGroup": "par l {seq l {space :::p, par b {comp titile1::b:p::p, comp title3::b:p::p}, space :p:21:p, comp title2:::p::p, par l {seq {space :::p, comp ClubList::::249:x, space s:::p}, seq l {space :p:30:p, comp personalinfo:::p::p, space :p:48:p, comp personalapply:::p::p, space :p:49:p, comp personalclub:::p::p, space ::56:x}}, par b {comp loginout::b:p::p, comp college::b:p::p, comp teacher::b:p::p, comp apply::b:p::p, comp create::b:p::p}, space :p:14:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "titile1"
+				"text": "主页"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "ClubList"
+				add( new FormComponent( "javax.swing.JList" ) {
+					name: "organizationlist"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "loginout"
+				"text": "退出登录"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "personalinfo"
+				"text": "我的信息"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title2"
+				"text": "社团列表信息"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "college"
+				"text": "院系信息"
+				"font": #SwingDerivedFont0
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "teacher"
+				"text": "教师信息"
+				"font": #SwingDerivedFont0
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "create"
+				"text": "创建新社团"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "apply"
+				"text": "审批申请"
+				"font": #SwingDerivedFont0
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "personalapply"
+				"text": "我的申请"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title3"
+				"text": "欢迎xxx"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "personalclub"
+				"text": "我的社团"
+				"font": #SwingDerivedFont0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 575, 420 )
+		} )
+	}
+}

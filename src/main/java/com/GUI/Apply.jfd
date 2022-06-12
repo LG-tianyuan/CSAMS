@@ -1,0 +1,92 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:268:p, comp title:::p::p}, seq l {space :p:35:p, par l {seq l {space :p:46:p, comp pass:::p::p, space :p:71:p, comp submit:::p:88:p, space ::78:x, comp back:::p:88:p}, seq l {space :p:23:p, par l {seq {par l {comp apass:::p::p, comp adate::l:p::p}, space :p:41:p, par l {comp Adate:::p:225:p, comp Apass:::p:225:p}}, seq {par l {par t {comp atype:::p::p, comp ano:::p::p, comp acont::t:p::p}, comp apno:::p::p}, space :p:41:p, par l {comp Atype:::p:225:p, comp Ano:::p:225:p, comp Acont::l:p:225:p, comp Apno:::p:225:p}}}}}}}, space :p:79:p}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp title:::p::p, space :p:19:p, par b {comp Ano::b:p::p, comp ano::b:p::p}, space :p:18:p, par b {comp Atype::b:p::p, comp atype::b:p::p}, space s:::p, par b {comp Acont::b:p::p, comp acont::b:p::p}, space :p:13:p, par b {comp Apno::b:p::p, comp apno::b:p::p}, space :p:23:p, par b {comp Adate::b:p::p, comp adate::b:p::p}, space :p:23:p, par b {comp apass::b:p::p, comp Apass::b:p::p}, space s:::p, par l {comp back:::p::p, par b {comp pass::b:p::p, comp submit::b:p::p}}, space ::16:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title"
+				"text": "申请"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "ano"
+				"text": "申请编号"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "atype"
+				"text": "申请类型"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "acont"
+				"text": "申请内容"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "apno"
+				"text": "申请人"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Apno"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "adate"
+				"text": "申请时间"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Adate"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "back"
+				"text": "返回"
+				"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "submit"
+				"text": "提交"
+				"font": #SwingDerivedFont1
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Ano"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "pass"
+				"text": "审批通过"
+				"font": #SwingDerivedFont1
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "apass"
+				"text": "是否通过"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Atype"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Apass"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Acont"
+				"enabled": false
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 575, 420 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}

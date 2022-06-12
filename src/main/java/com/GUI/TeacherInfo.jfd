@@ -1,0 +1,100 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:62:p, par l {seq {comp delete:::p::p, space s:::p, comp edit:::p::p, space s:::p, comp submit:::p::p, space :p:94:p, comp back:::p::p}, comp tintro:::p::p, seq l {par l:::p {seq {comp tcname:::p::p, space u:::p, comp Tcname:::p:153:p}, seq {comp tname:::p::p, space u:::p, comp Tname:::p:153:p}}, space :p:52:p, par l {comp ttel:::p::p, comp tjob:::p::p}, space u:::p, par l {comp Ttel:::p:153:p, comp Tjob::l:p:153:p}}, seq l {comp tno:::p::p, space u:::p, comp Tno:::p:153:p}, seq {space :6:6:p, comp scrollPane1:::p:437:p}}}, seq l {space :p:253:p, comp title:::p::p}}, space ::73:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp title:::p::p, space :p:23:p, par b {comp tno::b:p::p, comp Tno::b:p::p}, space u:::p, par b {comp tname::b:p::p, comp Tname::b:p::p, comp tjob::b:p::p, comp Tjob::b:p::p}, space u:::p, par b {comp tcname::b:p::p, comp Tcname::b:p::p, comp ttel::b:p::p, comp Ttel::b:p::p}, space u:::p, comp tintro:::p::p, space :::p, comp scrollPane1:::p:111:p, space s:::p, par b {comp back::b:p::p, comp delete::b:p::p, comp edit::b:p::p, comp submit::b:p::p}, space ::22:x}}"
+		} ) {
+			name: "this"
+			"font": new java.awt.Font( "Dialog", 0, 14 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title"
+				"text": "指导老师"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "tjob"
+				"text": "职称"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "tcname"
+				"text": "院系"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "ttel"
+				"text": "手机"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Ttel"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "tintro"
+				"text": "简介"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "Tintro"
+					"enabled": false
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "edit"
+				"text": "编辑"
+				"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "delete"
+				"text": "删除"
+				"font": #SwingDerivedFont1
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "back"
+				"text": "返回"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "submit"
+				"text": "提交"
+				"font": #SwingDerivedFont1
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "tname"
+				"text": "姓名"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "tno"
+				"text": "职工号"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Tname"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Tno"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Tjob"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Tcname"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 580, 420 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}

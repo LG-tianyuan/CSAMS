@@ -1,0 +1,52 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:117:p, par l {comp username:::p:47:p, comp password:::p::p}, space :p:51:p, par l {comp Upwd:::p:252:p, comp Uname:::p:252:p}}, seq l {space :p:176:p, comp title:::p::p}, seq t {space :p:100:p, comp Loginbutton:::p::p, space :p:67:p, comp Registerbutton:::p::p, space :p:66:p, comp quit:::p::p}}, space ::106:x}}"
+			"$verticalGroup": "par l {seq {space :::p, comp title:::p::p, space :p:61:p, par t {comp username:::p:27:p, comp Uname:::p::p}, space ::62:x, par b {comp Upwd::b:p::p, comp password::b:p::p}, space :p:50:p, par b {comp quit::b:p::p, comp Registerbutton::b:p::p, comp Loginbutton::b:p::p}, space :p:90:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title"
+				"text": "欢迎登陆高校社团管理系统"
+				"font": new java.awt.Font( "Microsoft YaHei UI", 0, 18 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "username"
+				"text": "用户名"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Uname"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "password"
+				"text": "密  码"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "Loginbutton"
+				"text": "登录"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "Registerbutton"
+				"text": "注册"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "Upwd"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "quit"
+				"text": "退出"
+				"font": #SwingDerivedFont0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 5 )
+			"size": new java.awt.Dimension( 575, 415 )
+		} )
+	}
+}

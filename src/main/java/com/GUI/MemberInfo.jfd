@@ -1,0 +1,130 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:32:p, comp Mname2:::p::p, space s:::p, comp Mname:::p::p}, seq l {space :62:62:p, par l:::p {seq {comp mwechat2:::p::p, space u:::p, comp Mjoin:::p:153:p}, seq l {par l {seq l {comp mjob:::p::p, space u:::p, comp Mjob:::p:153:p}, par t:l {seq t {comp mcno:::p::p, space u:::p, comp Mcname:::p:153:p}, seq l {comp mpno:::p::p, space u:::p, comp Mpno:::p:153:p}}, seq l {comp mwechat:::p::p, space u:::p, comp Mwechat:::p:153:p}}, space :p:49:p, par l {par t:l {seq {comp mqno:::p::p, space s:::p, comp Mqno:::p:153:p}, seq l {comp mtel:::p::p, space s:::p, comp Mtel:::p:153:p}}, par t:l::p {seq l {comp mgrade:::p::p, space s:::p, comp Mgrade:::::x}, seq {comp msex:::p::p, space s:::p, comp Msex:::p:152:p}}}}}}}, space :84:73:x}, seq l {space :p:108:p, comp edit:::p::p, space :p:54:p, comp submit:::p::p, space ::64:x, comp back:::p::p, space :p:118:p}}"
+			"$verticalGroup": "par l {seq l {space :p:21:p, par b {comp Mname2::b:p::p, comp Mname::b:p::p}, space s:::p, par b {comp mpno::b:p::p, comp Mpno::b:p::p, comp msex::b:p::p, comp Msex::b:p::p}, space s:::p, par b {comp Mcname::b:p::p, comp mgrade::b:p::p, comp mcno::b:p::p, comp Mgrade::b:p::p}, space s:::p, par b {comp Mjob::b:p::p, comp mjob::b:p::p, comp mtel::b:p::p, comp Mtel::b:p::p}, space s:::p, par b {comp mwechat::b:p::p, comp Mwechat::b:p::p, comp mqno::b:p::p, comp Mqno::b:p::p}, space s:::p, par b {comp Mjoin::b:p::p, comp mwechat2::b:p::p}, space ::46:x, par b {comp back::b:p::p, comp edit::b:p::p, comp submit::b:p::p}, space :p:25:p}}"
+		} ) {
+			name: "this"
+			"font": new java.awt.Font( "Dialog", 0, 14 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "Mname"
+				"text": "XXX"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mpno"
+				"text": "学号"
+				"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Mpno"
+				"enabled": false
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mcno"
+				"text": "院系"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mtel"
+				"text": "手机"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Mtel"
+				"enabled": false
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mgrade"
+				"text": "年级"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "edit"
+				"text": "编辑"
+				"font": &SwingDerivedFont2 new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "back"
+				"text": "返回"
+				"font": #SwingDerivedFont2
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "msex"
+				"text": "性别"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Mqno"
+				"enabled": false
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mjob"
+				"text": "职务"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mwechat"
+				"text": "微信"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Mwechat"
+				"enabled": false
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mqno"
+				"text": "QQ"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "Mname2"
+				"text": "社团成员"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "mwechat2"
+				"text": "加入时间"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Mjoin"
+				"enabled": false
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Mcname"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Mjob"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Mgrade"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Msex"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "submit"
+				"text": "提交"
+				"font": #SwingDerivedFont2
+				"enabled": false
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 580, 420 )
+			"location": new java.awt.Point( 15, 15 )
+		} )
+	}
+}

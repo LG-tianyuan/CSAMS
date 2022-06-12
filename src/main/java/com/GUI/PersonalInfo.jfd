@@ -1,0 +1,127 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:104:p, comp edit:::p::p, space :p:65:p, comp submit:::p::p, space ::74:x, comp back:::p::p, space :p:96:p}, seq {par l {seq {space :p:35:p, par t {par l {comp username::l:p::p, comp pno::l:p::p, comp pgrade::t:p::p}, comp psex:::p::p, comp ptel::t:p::p, comp pqno::t:p::p}, space :p:18:p, par l {comp Pqno:::p:179:p, seq l {par l {par t:::p {comp Pgrade::l::179:x, comp Psex::l::179:x, comp Ptel::l::179:x}, comp Pno::l:p:179:p}, space :p:46:p, par l {seq {comp pcname:::p::p, space s:::p, comp Pcname:::p:179:p}, seq l {comp pname:::p::p, space s:::p, comp Pname:::p:179:p}, seq {comp page:::p::p, space s:::p, comp Page:::p:179:p}, seq l {comp pwechat:::p::p, space s:::p, comp Pwechat:::p:179:p}}}, comp Puname:::p:179:p}}, seq l {space :p:251:p, comp title:::p::p}}, space ::40:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp title:::p::p, space :p:19:p, par b {comp username::b:p::p, comp Puname::b:p::p}, space :p:5:p, par b {comp pno::b:p::p, comp pname::b:p::p, comp Pname::b:p::p, comp Pno::b:p::p}, space :p:12:p, par b {comp pgrade::b:p::p, comp Pgrade::b:p::p, comp pcname::b:p::p, comp Pcname::b:p::p}, space u:::p, par b {comp Psex::b:p::p, comp psex::b:p::p, comp page::b:p::p, comp Page::b:p::p}, space u:::p, par b {comp ptel::b:p::p, comp pwechat::b:p::p, comp Ptel::b:p::p, comp Pwechat::b:p::p}, space u:::p, par b {comp pqno::b:p::p, comp Pqno::b:p::p}, space :p:38:p, par b {comp back::b:p::p, comp edit::b:p::p, comp submit::b:p::p}, space ::38:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title"
+				"text": "个人信息"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "username"
+				"text": "用户"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "pno"
+				"text": "学号"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "pname"
+				"text": "姓名"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Pname"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "pgrade"
+				"text": "年级"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "pcname"
+				"text": "院系"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Pgrade"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Pcname"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Psex"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "psex"
+				"text": "性别"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "page"
+				"text": "年龄"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "ptel"
+				"text": "手机"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "pwechat"
+				"text": "微信"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Ptel"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Pwechat"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "pqno"
+				"text": "QQ"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Pqno"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "edit"
+				"text": "编辑"
+				"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "back"
+				"text": "返回"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "submit"
+				"text": "提交"
+				"font": #SwingDerivedFont1
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Pno"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Puname"
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Page"
+				"enabled": false
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 575, 420 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}

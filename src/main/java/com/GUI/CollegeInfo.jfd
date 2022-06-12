@@ -1,0 +1,59 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:62:p, par l {comp titile:::p::p, seq {par t {comp cname:::p::p, comp cno:::p::p}, space u:::p, par l {comp Cname:::p:196:p, comp Cno:::p:196:p}}}}, seq l {space :p:74:p, comp submit:::p::p, space :p:32:p, comp update:::p::p, space :p:39:p, comp delete:::p::p, space :p:35:p, comp back:::p::p}}, space ::86:x}}"
+			"$verticalGroup": "par l {seq l {space :p:55:p, comp titile:::p::p, space :p:49:p, par b {comp cno::b:p::p, comp Cno::b:p::p}, space :p:42:p, par b {comp Cname::b:p::p, comp cname::b:p::p}, space :p:65:p, par b {comp submit::b:p::p, comp update::b:p::p, comp delete::b:p::p, comp back::b:p::p}, space ::63:x}}"
+		} ) {
+			name: "this"
+			"font": new java.awt.Font( "Dialog", 0, 14 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "titile"
+				"text": "学院信息"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "cno"
+				"text": "学院编号"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Cno"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "cname"
+				"text": "学院名称"
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Cname"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "submit"
+				"text": "提交"
+				"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+				"enabled": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "update"
+				"text": "更新"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "delete"
+				"text": "删除"
+				"font": #SwingDerivedFont1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "back"
+				"text": "返回"
+				"font": #SwingDerivedFont1
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 580, 420 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}

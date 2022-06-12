@@ -1,0 +1,43 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:55:p, par l {comp CollegeList:::p:458:p, comp title2:::p::p}}, seq l {space :p:245:p, comp titile1:::p::p}}, space ::60:x}, seq l {space :p:122:p, comp create:::p::p, space ::158:x, comp back:::p::p, space :p:137:p}}"
+			"$verticalGroup": "par l {seq l {space :p:14:p, comp titile1:::p::p, space s:::p, comp title2:::p::p, space u:::p, comp CollegeList::::238:x, space s:::p, par b {comp create::b:p::p, comp back::b:p::p}, space :p:14:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "titile1"
+				"text": "院系信息"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "CollegeList"
+				add( new FormComponent( "javax.swing.JList" ) {
+					name: "collegelist"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "back"
+				"text": "返回"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title2"
+				"text": "院系列表信息"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "create"
+				"text": "新增"
+				"font": #SwingDerivedFont0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 575, 420 )
+			"location": new java.awt.Point( 5, 0 )
+		} )
+	}
+}
